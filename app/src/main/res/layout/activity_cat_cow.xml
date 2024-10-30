@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    android:background="@drawable/login_background"
+    tools:context=".CatCowActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/img_1"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Eating Nutritious Meals"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Steps:"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="1.Plan Balanced Meals: Include carbs, proteins, and fats from nutrient-rich foods.\n
+2.Choose Whole Foods: Opt for minimally processed options for higher nutrients.\n
+3.Prioritize Fruits and Veggies: Increase intake for essential vitamins and fiber.\n
+4.Include Lean Proteins: Utilize sources like poultry, fish, and legumes.\n
+5.Choose Healthy Fats: Incorporate avocados, nuts, and olive oil for vital nutrients.\n
+6.Mindful Portion Control: Use visual cues to avoid overeating.\n
+7.Stay Hydrated: Drink water to support digestion and avoid mistaken hunger.\n
+8.Listen to Your Body: Eat when hungry, stop when satisfied to prevent overeating.\n
+9.Meal Prep: Prepare nutritious meals ahead for convenience and better choices.\n
+10.Enjoy Balanced Snacks: Opt for nutrient-rich snacks to curb hunger healthily.\n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="\n.\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Eating nutritious meals is essential for maintaining good health and providing the body with the necessary nutrients it needs to function optimally. Nutritious meals consist of a balance of macronutrients (carbohydrates, proteins, and fats) and micronutrients (vitamins and minerals) that support various bodily functions, promote energy levels, and contribute to overall well-being. Incorporating a variety of whole foods, including fruits, vegetables, lean proteins, whole grains, and healthy fats, can help ensure that you're getting the nutrients your body needs to thrive." />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HealthyHab"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="18dp"
+                android:textSize="20sp"
+                android:id="@+id/yog1"
+                android:onClick="yog1"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    android:background="@drawable/login_background"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/home33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:gravity="center"
+                android:onClick="home33"
+                android:padding="18dp"
+
+                android:text="Home"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+                />
+
+            <Button
+                android:id="@+id/yoga33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:gravity="center"
+                android:onClick="yoga33"
+                android:padding="18dp"
+
+                android:text="HealthyHabs"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+                />
+
+            <Button
+                android:id="@+id/profile33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:gravity="center"
+                android:onClick="profile33"
+                android:padding="18dp"
+
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/baseline_account_circle_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/notice3"
+            android:layout_width="413dp"
+            android:layout_height="53dp"
+            android:gravity="center"
+            android:text="Unlock the full potential of your \n HealthyHabs experience \nUpdate or delete your account by filling the required details. "
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <EditText
+            android:id="@+id/username3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/password3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/newpassword3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/update_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/black"
+            android:text="Update password"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/update3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password3"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/update3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="32dp"
+                android:backgroundTint="@color/black"
+                android:padding="18dp"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+                />
+
+            <Button
+                android:id="@+id/delete3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+
+                android:layout_marginTop="18dp"
+                android:backgroundTint="@color/black"
+                android:padding="18dp"
+                android:text="Delete"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/logout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:onClick="logout"
+            android:padding="18dp"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HealthyHab</string>
+
+    <string name="drink_wat">1.Sip water throughout the day, aiming for at least 8 glasses (about 2 liters) of water daily. \n
+    2.Pay attention to signs of dehydration such as thirst, dry mouth, and dark urine.\n
+    3.Incorporate water breaks into your daily routine, such as drinking a glass of water upon waking up.\n
+    4.Opt for water over sugary beverages like soda and juice.</string>
+    <string name="dr_steps">Keep Water Handy: Carry a reusable bottle to stay hydrated on the go.\n
+
+Sip Regularly: Drink small sips consistently throughout the day.\n
+Drink Before Meals: Hydrate before eating to aid digestion and prevent overeating.\n
+Use Reminders: Set alerts to drink water regularly, ensuring hydration.\n
+Monitor Intake: Track water consumption to meet daily goals effectively.\n
+
+Incorporate Water-Rich Foods: Eat fruits and veggies with high water content to supplement hydration.</string>
+</resources>

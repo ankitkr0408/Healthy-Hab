@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="18dp"
+    android:background="@drawable/login_background"
+    android:layout_height="match_parent"
+    tools:context=".ChildposeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/img"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Drinking Water"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                 />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Steps:"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/dr_steps"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="\n.\n"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Staying hydrated by drinking an adequate amount of water throughout the day is essential for maintaining overall health and well-being. Water plays a vital role in various bodily functions, including regulating body temperature, aiding digestion, flushing out toxins, and lubricating joints. Incorporating a habit of regular water intake into your daily routine can boost energy levels, improve concentration, support weight management, and promote healthy skin." />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HealthyHabs"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="18dp"
+                android:textSize="20sp"
+                android:id="@+id/yog1"
+                android:onClick="yog1"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

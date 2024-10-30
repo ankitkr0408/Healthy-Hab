@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    android:background="@drawable/login_background"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/black">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="18dp"
+                android:textSize="20sp"
+                android:id="@+id/home11"
+                android:onClick="home11"
+
+                /><Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HealthyHab"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:padding="18dp"
+
+            android:textSize="20sp"
+            android:id="@+id/yoga11"
+            android:onClick="yoga11"
+
+            /><Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:padding="18dp"
+            android:gravity="center"
+
+            android:textSize="20sp"
+            android:id="@+id/profile11"
+            android:onClick="profile11"
+
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/checkboxContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <!-- Checkbox for each yoga pose -->
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drink 8 glasses of water and daily
+ Drink water before meals"/>
+
+            <CheckBox
+                android:id="@+id/checkbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text=" Sleep for at least 7-8 hours and Follow a bedtime routine"/>
+
+            <CheckBox
+                android:id="@+id/checkbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eat 5 servings of fruits and vegetables daily and Avoid processed foods"/>
+
+            <CheckBox
+                android:id="@+id/checkbox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Do strength training exercises and Practice flexibility exercises or yoga"/>
+
+            <CheckBox
+                android:id="@+id/checkbox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limit screen time before bedtime"/>
+
+            <CheckBox
+                android:id="@+id/checkbox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sit or stand up straight with shoulders back"/>
+
+            <CheckBox
+                android:id="@+id/checkbox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Practice mindfulness during daily activities to appreciate the present moment"/>
+
+            <CheckBox
+                android:id="@+id/checkbox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meditate for 10 minutes daily"/>
+
+        </LinearLayout>
+
+        <!-- Submit button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:onClick="Submit"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/black"
+            android:layout_below="@id/checkboxContainer"
+            android:text="Submit"/>
+    </LinearLayout>
+</RelativeLayout>
